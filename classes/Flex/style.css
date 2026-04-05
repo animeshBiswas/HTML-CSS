@@ -1,0 +1,17 @@
+.parent {
+    border: 2px solid green;
+    width: 90vw;
+    height: 300px;
+}
+
+.child{
+    border: 2px solid blue;
+    height: 40px;
+    width: 40px;
+}
+
+.parent {
+    display: flex; /*align to the main axis*/ 
+    flex-direction: column; /*  Row - Main Axis L to R | Column - Main axis T to B  */
+    justify-content: space-evenly ; /*align to the main axis and flex-direction controls the justify-content*/
+}
